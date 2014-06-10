@@ -20,4 +20,4 @@ BlinkyDancer.prototype.setPosition = function(top, left){
     window.blinkyDancers.push($(dancer).offset());
   });
 
-}
+};
