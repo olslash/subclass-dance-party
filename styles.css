@@ -21,7 +21,35 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
+  position:absolute;
+}
+
+.blinkydancer {
   border:10px solid red;
   border-radius:10px;
-  position:absolute;
+}
+
+.bluecircle{
+  border:10px solid blue;
+  border-radius:10px;
+}
+
+.squaredancer{
+  border:10px solid green;
+}
+
+.squarecatdancer{
+  /*display: inline-block;*/
+  border: none;
+  background: url('./img/cat.png') no-repeat center;
+  background-size: 300%;
+  height: 50px;
+  width: 50px;
+}
+
+.bothered{
+  background: url('./img/kitty-says-no.jpg') no-repeat center;
+  background-size: 120%;
+    height: 100px;
+  width: 100px;
 }
